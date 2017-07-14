@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JQuery Multiple Selectors</title>
+<meta charset="utf-8" />
+</head>
+<body style="background-color: yellow">
+<a href="#">Link</a>
+<a href="#">Link</a>
+<a href="#">Link</a>
+<a href="#">Link</a>
+<a href="#">LInk</a>
+<script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/JavaScript">
+// alerts there are 5 elements
+alert('Page contains ' + jQuery(document.getElementsByTagName('a')).length + ' <a> elements and has a ' + jQuery(document.body).attr('style') + ' background');
+</script>
+</body>
+</html>
